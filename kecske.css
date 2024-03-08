@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+
+main{
+    border:1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+#bal{
+    border:1px solid gray;
+    margin: 10px;
+}
+
+#bal img{
+    width: 100px;
+}
+
+#csonak{
+    border:1px solid gray;
+    margin: 10px;
+    background-color:aqua;
+}
+#jobb{
+    border:1px solid gray;
+    margin: 10px;  
+}
+
+header{
+    border:1px solid gray;
+    margin: 10px;
+}
+
+footer p{
+    background-color: aqua;
+}
+
+footer{
+    flex: 0 0 100%
+}
+
+.kiemel{
+    cursor: grab;
+    border: 2pt solid red;
+}
